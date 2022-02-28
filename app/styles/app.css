@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 html , body{
     background: #111828 !important;
-    
+    margin-top: 3rem !important;
 }
 .navbar{
-    background: transparent !important;
+    background: rgba( 17, 24, 40, 0.6 ) !important;
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+
+
 }
 
 
@@ -34,21 +38,22 @@ html , body{
 }
 
 .intro_hero.introduction{
-    background: #e5e7ea;
-    color: #111828 !important;
+    
+    color: #ec478b !important;
 }
 
 .about_hero.about{
-    background: #e5e7ea;
-    color: #111828 !important;
+    color: #ec478b !important;
 }
 
 .project_hero.project{
-    background: #e5e7ea;
-    color: #111828 !important;
+    color: #ec478b !important;
 }
 
 .contact_hero.contact{
-    background: #e5e7ea;
-    color: #111828 !important;
+    color: #ec478b !important;
+}
+.navbar-item:active{
+    background: none !important;
+    color: inherit;
 }
