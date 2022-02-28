@@ -32,3 +32,23 @@ html , body{
  text-decoration-style: wavy !important;
  text-decoration-line:underline;
 }
+
+.intro_hero.introduction{
+    background: #e5e7ea;
+    color: #111828 !important;
+}
+
+.about_hero.about{
+    background: #e5e7ea;
+    color: #111828 !important;
+}
+
+.project_hero.project{
+    background: #e5e7ea;
+    color: #111828 !important;
+}
+
+.contact_hero.contact{
+    background: #e5e7ea;
+    color: #111828 !important;
+}

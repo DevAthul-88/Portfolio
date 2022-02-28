@@ -3,19 +3,35 @@
 <div class='navbar is-spaced'>
   <div class='navbar-start'>
 
-    <a href='#introduction' class='navbar-item pop w hvr-rotate' >
+    <a
+      href='#introduction'
+      class='navbar-item pop w hvr-rotate intro_hero {{this.current}}'
+      onclick={{action 'change' 'introduction'}}
+    >
       Introduction
     </a>
 
-    <a class='navbar-item w pop w hvr-rotate'>
+    <a
+      href='#about'
+      class='navbar-item w pop w hvr-rotate about_hero {{this.current}}'
+      onclick={{action 'change' 'about'}}
+    >
       About
     </a>
 
-    <a class='navbar-item w pop w hvr-rotate'>
+    <a
+    href="#projects"
+      class='navbar-item w pop w hvr-rotate project_hero {{this.current}}'
+      onclick={{action 'change' 'project'}}
+    >
       Projects
     </a>
 
-    <a href='' class='navbar-item w pop hvr-rotate'>
+    <a
+      href='#contact'
+      class='navbar-item w pop hvr-rotate contact_hero {{this.current}}'
+      onclick={{action 'change' 'contact'}}
+    >
       Contact
     </a>
 
@@ -24,11 +40,11 @@
   <div class='navbar-end'>
     <a href='' class='navbar-item w hvr-rotate'>
 
-      <i class="fab fa-github fa-2x"></i>
+      <i class='fab fa-github fa-2x'></i>
 
     </a>
-    <a href="" class="navbar-item w hvr-rotate">
-        <i class="fab fa-linkedin fa-2x"></i>
+    <a href='' class='navbar-item w hvr-rotate'>
+      <i class='fab fa-linkedin fa-2x'></i>
     </a>
   </div>
 </div>
