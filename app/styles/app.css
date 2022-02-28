@@ -57,3 +57,9 @@ backdrop-filter: blur( 20px );
     background: none !important;
     color: inherit;
 }
+.tag{
+    background: #202938 !important;
+    color: #e5e7ea !important;
+    margin-left: 10px;
+    margin-top: 10px;
+}
