@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+html , body{
+    background: #111828 !important;
+    
+}
+.navbar{
+    background: transparent !important;
+}
+
+
+
+.w{
+    color: white !important;
+}
+
+
+
+.hero_card{
+    background: #202938 !important;
+    border-radius: 2px !important;
+}
+
+.hero_btn{
+    background: #e5e7ea !important;
+     border: none !important;
+}
+
+.navbar-item:hover{
+    color: #111828 !important;
+}
+.wavy{
+ text-decoration-style: wavy !important;
+ text-decoration-line:underline;
+}
