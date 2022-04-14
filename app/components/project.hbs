@@ -1,1 +1,24 @@
 {{yield}}
+
+<div class='section is-medium' id='projects'>
+  <h1 class='title is-size-1 w pop'>
+    Projects
+  </h1>
+
+  <div class='mt-4'>
+    {{#each this.data as |e|}}
+      <div class='columns'>
+        <div class='column'>
+          <h1 class='title is-size-3 w pop he'>{{e.title}}</h1>
+          <p class='subtitle is-size-4 mt-2 w pop'>
+            {{e.description}}
+          </p>
+        </div>
+        <div class='column'>
+          <img src='{{e.thumbnail}}' alt='' />
+        </div>
+      </div>
+    {{/each}}
+  </div>
+
+</div>

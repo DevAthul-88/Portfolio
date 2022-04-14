@@ -65,3 +65,11 @@ backdrop-filter: blur( 20px );
     margin-top: 10px;
     cursor: pointer;
 }
+
+.he::after {
+    content: "";
+    display: block;
+    width: 40px;
+    padding-top: 3px;
+    border-bottom: 4px solid #ec478b;
+  }
