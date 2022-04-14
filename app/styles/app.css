@@ -61,5 +61,7 @@ backdrop-filter: blur( 20px );
     background: #202938 !important;
     color: #e5e7ea !important;
     margin-left: 10px;
+    text-transform: uppercase;
     margin-top: 10px;
+    cursor: pointer;
 }
