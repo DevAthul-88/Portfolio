@@ -5,10 +5,27 @@
     Projects
   </h1>
 
-  <div class='mt-4'>
-    {{#each this.data as |e|}}
-      <div class='columns'>
-        <div class='column'>
+  <h5 class='w pop is-size-4'>Filter projects by tag</h5>
+ 
+    <div class="mt-4">
+      <span class="tag is-light is-medium" {{on "click" (fn this.update "all")}}>
+      #All
+    </span>
+      <span class="tag is-light is-medium" {{on "click" (fn this.update "e-commerce")}}>
+      #E-commerce
+    </span>
+     <span class="tag is-light is-medium" {{on "click" (fn this.update "system")}}>
+      #Management-System
+    </span>
+       <span class="tag is-light is-medium" {{on "click" (fn this.update "social-network")}}>
+      #Social-network
+    </span>
+    </div>
+
+  <div class='mt-6' >
+    {{#each this.returnData as |e|}}
+      <div class='columns' >
+        <div class='column' id="project-container">
           <h1 class='title is-size-3 w pop he'>{{e.title}}</h1>
           <p class='subtitle is-size-4 mt-2 w pop'>
             {{e.description}}
@@ -25,3 +42,4 @@
   </div>
 
 </div>
+

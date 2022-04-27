@@ -73,3 +73,7 @@ backdrop-filter: blur( 20px );
     padding-top: 3px;
     border-bottom: 4px solid #ec478b;
   }
+
+  #project-container{
+      transition:1s ease-in-out;
+  }
