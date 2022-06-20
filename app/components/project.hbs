@@ -23,7 +23,7 @@
      <span class="tag is-light is-medium" {{on "click" (fn this.update "social-network")}}>
       #Web3
     </span>
-     <span class="tag is-light is-medium" {{on "click" (fn this.update "social-network")}}>
+     <span class="tag is-light is-medium" {{on "click" (fn this.update "clones")}}>
       #Clones
     </span>
     <span class="tag is-light is-medium" {{on "click" (fn this.update "social-network")}}>
@@ -34,7 +34,7 @@
   <div class='mt-6' >
     {{#each this.returnData as |e|}}
       <div class='columns' >
-        <div class='column' id="project-container">
+        <div class='column ' id="project-container">
           <h1 class='title is-size-3 w pop he'>{{e.title}}</h1>
           <p class='subtitle is-size-4 mt-2 w pop'>
             {{e.description}}
@@ -43,8 +43,8 @@
           More information
           </LinkTo>
         </div>
-        <div class='column'>
-          <img src='{{e.thumbnail}}' alt='' />
+        <div class='column is-7'>
+          <img src='{{e.thumbnail}}' alt='' class="hvr-grow"/>
         </div>
       </div>
     {{/each}}

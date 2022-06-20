@@ -20,6 +20,8 @@ export default class ProjectComponent extends Component {
       return (this.data = project.filter((e) => e.tag === 'system'));
     } else if (this.tag === 'social-network') {
       return (this.data = project.filter((e) => e.tag === 'social-network'));
+    } else if (this.tag === 'clones') {
+      return (this.data = project.filter((e) => e.tag === 'clones'));
     }
   }
 }

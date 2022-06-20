@@ -39,19 +39,22 @@ backdrop-filter: blur( 20px );
 
 .intro_hero.introduction{
     
-    color: #ec478b !important;
+    color: #0ff !important;
 }
 
 .about_hero.about{
-    color: #ec478b !important;
+    color: #0ff !important;
 }
 
 .project_hero.project{
-    color: #ec478b !important;
+    color: #0ff !important;
 }
 
 .contact_hero.contact{
-    color: #ec478b !important;
+    color: #0ff !important;
+}
+.navbar{
+    border-bottom: 2px solid #0ff;
 }
 .navbar-item:active{
     background: none !important;
@@ -71,7 +74,7 @@ backdrop-filter: blur( 20px );
     display: block;
     width: 40px;
     padding-top: 3px;
-    border-bottom: 4px solid #ec478b;
+    border-bottom: 4px solid #0ff;
   }
 
   #project-container{
