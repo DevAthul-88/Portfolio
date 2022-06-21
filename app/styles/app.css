@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 @font-face {
-    font-family:r;
-    src: url('./RifficFree-Bold.ttf');
+  font-family: r;
+  src: url('./RifficFree-Bold.ttf');
 }
 
-.r{
-    font-family:r !important;
+.r {
+  font-family: r !important;
 }
 
 html,
@@ -16,11 +16,9 @@ body {
 }
 
 .navbar {
-  background: #0e141b !important;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-
-
+  backdrop-filter: blur(1px) saturate(180%);
+  -webkit-backdrop-filter: blur(1px) saturate(180%);
+  background-color: rgba(0, 0, 0, 0.33) !important;
 }
 
 
@@ -97,8 +95,36 @@ body {
   transition: 1s ease-in-out;
 }
 
-@media screen and (min-width: 768px){
-    .is-0{
-        font-size: 6rem !important;
-    }
+@media screen and (min-width: 768px) {
+  .is-0 {
+    font-size: 6rem !important;
+  }
+}
+
+
+
+#spin:after {
+  content: "";
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    content: "Web Developer";
+  }
+
+  30% {
+    content: "Designer";
+  }
+
+  60% {
+    content: "Web Designer";
+  }
+
+  90% {
+    content: "Web Wizard";
+  }
+
+
+
 }

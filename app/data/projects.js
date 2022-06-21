@@ -9,8 +9,6 @@ const projects = [
     link: '#',
     route: 'stackoverflow-clone',
   },
-
-
 ];
 
 export default projects;
