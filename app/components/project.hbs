@@ -1,11 +1,11 @@
 {{yield}}
 
-<div class='section' id='projects'>
+<div class='section mt-6' id='projects'>
   <h1 class='title is-size-3 w pop'>
     Projects
   </h1>
 
-  <h5 class='w pop is-size-5'>Filter projects by tag</h5>
+  <h5 class='w pop is-size-5'>Filter projects</h5>
  
     <div class="mt-2">
       <span class="tag is-light is-medium" {{on "click" (fn this.update "all")}}>
@@ -33,7 +33,7 @@
 
   <div class='mt-6' >
     {{#each this.returnData as |e|}}
-      <div class='columns' >
+      <div class='columns mt-6' >
         <div class='column ' id="project-container">
           <h1 class='title is-size-3 w pop he'>{{e.title}}</h1>
           <p class='subtitle is-size-4 mt-2 w pop'>
