@@ -35,13 +35,24 @@
     {{#each this.returnData as |e|}}
       <div class='columns mt-6' >
         <div class='column ' id="project-container">
-          <h1 class='title is-size-3 w pop he'  data-aos="zoom-in-down">{{e.title}}</h1>
+          <h1 class='title is-size-3 w pop'  data-aos="zoom-in-down">{{e.title}}</h1>
           <p class='subtitle is-size-4 mt-2 w pop'  data-aos="zoom-in-down">
             {{e.description}}
           </p>
-          <LinkTo @route="{{e.route}}"  class='button is-rounded has-text-weight-bold hvr-bounce-in'>
-          More information
-          </LinkTo>
+         <div>
+          <a href="" class="button is-light is-rounded has-text-weight-bold hvr-bounce-in">
+           <span class="icon">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+           </span>
+           <span>Live Demo</span>
+          </a>
+          <a href="" class="button is-light is-rounded has-text-weight-bold hvr-bounce-in">
+            <span class="icon">
+              <i class="fa fa-code" aria-hidden="true"></i>
+            </span>
+            <span>Repository</span>
+          </a>
+         </div>
         </div>
         <div class='column is-7' data-aos="flip-left">
           <img src='{{e.thumbnail}}' alt='' class="hvr-grow"/>

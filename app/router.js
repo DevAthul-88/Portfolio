@@ -6,8 +6,4 @@ export default class Router extends EmberRouter {
   rootURL = config.rootURL;
 }
 
-Router.map(function () {
-  this.route('stackoverflow-clone');
-  this.route('wispy-projects');
-  this.route('tools');
-});
+Router.map(function () {});
