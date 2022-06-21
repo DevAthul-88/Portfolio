@@ -101,30 +101,28 @@ body {
   }
 }
 
-
-
-#spin:after {
-  content: "";
-  animation: spin 5s linear infinite;
+.input{
+  background: transparent !important;
+}
+input::placeholder{
+  color: #fff !important;
 }
 
-@keyframes spin {
-  0% {
-    content: "Web Developer";
-  }
 
-  30% {
-    content: "Designer";
-  }
-
-  60% {
-    content: "Web Designer";
-  }
-
-  90% {
-    content: "Web Wizard";
-  }
-
-
-
+.textarea{
+  background: transparent !important;
+}
+textarea::placeholder{
+  color: #fff !important;
+}
+input:focus{
+  box-shadow:none !important;
+  border-color: #0ff !important;
+}
+textarea:focus{
+  box-shadow:none !important;
+  border-color: #0ff !important;
+}
+.footer{
+  background: #1b242f !important;
 }

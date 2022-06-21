@@ -1,16 +1,35 @@
 {{yield}}
 
-
-
 <div class='section is-medium' id='contact'>
-  
-  <div class="columns">
-      <div class="column">
-        <h1 class="title is-size-3 has-text-danger-light">Contact Me</h1>
-         <p class="subtitle">
-          Contact me i will respond within 24 hours.
-         </p>
-      </div>
+  <h1 class='title is-size-3 has-text-danger-light has-text-centered'>Contact me</h1>
+
+  <div class='is-flex is-justify-content-center'>
+    <form action=''>
+      <input type='text' class='input mt-2' placeholder='Your name' />
+      <input type='email' class='input mt-2' placeholder='Your email' />
+      <textarea
+        name=''
+        id=''
+        cols='30'
+        class='textarea mt-2'
+        rows='10'
+        placeholder='Your message'
+      ></textarea>
+      <button
+        class='button is-light is-rounded has-text-weight-bold hvr-bounce-in mt-2' type="submit"
+      >Submit</button>
+    </form>
+  </div>
+
+  <h1 class='title  mt-6 is-size-3 has-text-danger-light has-text-centered'>Or use email</h1>
+
+  <div class='is-flex is-justify-content-center'>
+    <a href="mailto:devathulvinod@gmail.com" class="button is-light hvr-wobble-top">
+      <span class="icon">
+        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+      </span>
+      <span>Say Hi</span>
+    </a>
   </div>
 
 </div>
