@@ -1,13 +1,13 @@
 {{yield}}
 
 <div class='section mt-6' id='projects'>
-  <h1 class='title is-size-3 w pop'>
+  <h1 class='title is-size-3 w pop' data-aos="fade-down-right">
     Projects
   </h1>
 
   <h5 class='w pop is-size-5'>Filter projects</h5>
  
-    <div class="mt-2">
+    <div class="mt-2" data-aos="fade-down-right">
       <span class="tag is-light is-medium" {{on "click" (fn this.update "all")}}>
       #All
     </span>
@@ -35,15 +35,15 @@
     {{#each this.returnData as |e|}}
       <div class='columns mt-6' >
         <div class='column ' id="project-container">
-          <h1 class='title is-size-3 w pop he'>{{e.title}}</h1>
-          <p class='subtitle is-size-4 mt-2 w pop'>
+          <h1 class='title is-size-3 w pop he'  data-aos="zoom-in-down">{{e.title}}</h1>
+          <p class='subtitle is-size-4 mt-2 w pop'  data-aos="zoom-in-down">
             {{e.description}}
           </p>
-          <LinkTo @route="{{e.route}}" class='button is-rounded has-text-weight-bold hvr-bounce-in'>
+          <LinkTo @route="{{e.route}}"  class='button is-rounded has-text-weight-bold hvr-bounce-in'>
           More information
           </LinkTo>
         </div>
-        <div class='column is-7'>
+        <div class='column is-7' data-aos="flip-left">
           <img src='{{e.thumbnail}}' alt='' class="hvr-grow"/>
         </div>
       </div>
