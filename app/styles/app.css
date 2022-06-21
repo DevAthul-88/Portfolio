@@ -18,7 +18,7 @@ body {
 .navbar {
   backdrop-filter: blur(1px) saturate(180%);
   -webkit-backdrop-filter: blur(1px) saturate(180%);
-  background-color: rgba(0, 0, 0, 0.33) !important;
+  background-color: rgba(0, 0, 0, 0.221) !important;
 }
 
 

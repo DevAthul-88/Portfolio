@@ -66,15 +66,15 @@
             {{/each}}
           </div>
           <div>
-             <a
-              href='projects/{{e.route}}'
+             <LinkTo
+              @route='projects/{{e.route}}'
               class='button is-light is-rounded has-text-weight-bold hvr-bounce-in'
             >
               <span class='icon'>
                 <i class="fa fa-book" aria-hidden="true"></i>
               </span>
               <span>Read More</span>
-            </a>
+            </LinkTo>
             <a
               href='{{e.live}}'
               class='button is-light is-rounded has-text-weight-bold hvr-bounce-in'
