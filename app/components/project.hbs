@@ -5,7 +5,7 @@
     Projects
   </h1>
 
-  <h5 class='w pop is-size-5'>Filter projects</h5>
+  <h2 class='w pop is-size-5'>Filter projects</h2>
 
   <div class='mt-2' data-aos='fade-down-right'>
     <span class='tag is-light is-medium' {{on 'click' (fn this.update 'all')}}>
@@ -69,11 +69,12 @@
              <LinkTo
               @route='projects/{{e.route}}'
               class='button is-light is-rounded has-text-weight-bold hvr-bounce-in'
+              aria-label="Learn more about this project."
             >
               <span class='icon'>
                 <i class="fa fa-book" aria-hidden="true"></i>
               </span>
-              <span>Read More</span>
+              <span>Projects Details</span>
             </LinkTo>
             <a
               href='{{e.live}}'
