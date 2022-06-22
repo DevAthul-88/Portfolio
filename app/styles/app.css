@@ -11,21 +11,12 @@
 
 html,
 body {
-  background: #0e141b !important;
   margin-top: 3rem !important;
 }
 
-.navbar {
-  backdrop-filter: blur(1px) saturate(180%);
-  -webkit-backdrop-filter: blur(1px) saturate(180%);
-  background-color: rgba(0, 0, 0, 0.221) !important;
-}
 
 
 
-.w {
-  color: white !important;
-}
 
 
 
@@ -35,7 +26,7 @@ body {
 }
 
 .hero_btn {
-  background: #e5e7ea !important;
+  background: #b8bdc4 !important;
   border: none !important;
 }
 
@@ -50,23 +41,23 @@ body {
 
 .intro_hero.introduction {
 
-  color: #0ff !important;
+  color: #B1D4E0 !important;
 }
 
 .about_hero.about {
-  color: #0ff !important;
+  color: #B1D4E0 !important;
 }
 
 .project_hero.project {
-  color: #0ff !important;
+  color: #B1D4E0 !important;
 }
 
 .contact_hero.contact {
-  color: #0ff !important;
+  color: #B1D4E0 !important;
 }
 
 .navbar {
-  border-bottom: 2px solid #0ff;
+  border-bottom: 2px solid #B1D4E0;
 }
 
 .navbar-item:active {
@@ -88,7 +79,7 @@ body {
   display: block;
   width: 40px;
   padding-top: 3px;
-  border-bottom: 4px solid #0ff;
+  border-bottom: 4px solid #B1D4E0;
 }
 
 #project-container {
