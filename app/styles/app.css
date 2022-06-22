@@ -12,12 +12,15 @@
 html,
 body {
   margin-top: 3rem !important;
+  background: #fff !important;
 }
 
 
 
 
-
+.navbar{
+  border-bottom: 1px solid #dbdde2;
+}
 
 
 .hero_card {
@@ -41,30 +44,30 @@ body {
 
 .intro_hero.introduction {
 
-  color: #B1D4E0 !important;
+  color: #3340ff !important;
 }
 
 .about_hero.about {
-  color: #B1D4E0 !important;
+  color:#3340ff !important;
 }
 
 .project_hero.project {
-  color: #B1D4E0 !important;
+  color: #3340ff !important;
 }
 
 .contact_hero.contact {
-  color: #B1D4E0 !important;
+  color:#3340ff !important;
 }
 
-.navbar {
-  border-bottom: 2px solid #B1D4E0;
-}
 
 .navbar-item:active {
   background: none !important;
   color: inherit;
 }
-
+.button.is-light{
+  background:#3340ff !important;
+  color: #fff !important;
+}
 .tag {
   background: #202938 !important;
   color: #e5e7ea !important;
@@ -92,28 +95,37 @@ body {
   }
 }
 
-.input{
+.input {
   background: transparent !important;
 }
-input::placeholder{
-  color: #fff !important;
+
+input::placeholder {
+  color: #000 !important;
 }
 
 
-.textarea{
+.textarea {
   background: transparent !important;
 }
-textarea::placeholder{
-  color: #fff !important;
+
+textarea::placeholder {
+  color: #000 !important;
 }
-input:focus{
-  box-shadow:none !important;
-  border-color: #0ff !important;
+
+input:focus {
+  box-shadow: none !important;
+  border-color: #3340ff !important;
 }
-textarea:focus{
-  box-shadow:none !important;
-  border-color: #0ff !important;
+
+textarea:focus {
+  box-shadow: none !important;
+  border-color: #3340ff !important;
 }
-.footer{
-  background: #1b242f !important;
+
+.footer {
+  background: #000 !important;
+}
+
+.tag.is-light{
+  background:#3340ff !important;
 }

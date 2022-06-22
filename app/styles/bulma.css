@@ -8928,11 +8928,11 @@ label.panel-block:hover {
 }
 
 /* Bulma Helpers */
-.has-text-white {
+. {
   color: white !important;
 }
 
-a.has-text-white:hover, a.has-text-white:focus {
+a.:hover, a.:focus {
   color: #e6e6e6 !important;
 }
 
@@ -9248,7 +9248,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #dbdbdb !important;
 }
 
-.has-text-white-ter {
+.-ter {
   color: whitesmoke !important;
 }
 
@@ -9256,7 +9256,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: whitesmoke !important;
 }
 
-.has-text-white-bis {
+.-bis {
   color: #fafafa !important;
 }
 
