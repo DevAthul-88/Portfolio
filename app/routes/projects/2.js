@@ -5,7 +5,7 @@ export default class Projects2Route extends Route {
     return data.find((e) => e.route == 2);
   }
   activate() {
-    this._super(...arguments);
+    super.activate(...arguments);
     window.scrollTo(0, 0);
-   }
+  }
 }

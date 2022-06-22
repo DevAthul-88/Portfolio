@@ -12,6 +12,7 @@ const projects = [
       'React',
       'Bulma',
       'Node',
+      'Wouter',
       'Express',
       'MongoDB',
       'Formik+Yup',
@@ -37,6 +38,7 @@ const projects = [
       'Redux',
     ],
   },
+
   {
     title: 'Medic',
     route: 3,
@@ -53,8 +55,34 @@ const projects = [
       'Bootstrap',
       'Scss',
       'MySql',
-      'DataTable'
+      'DataTable',
     ],
+  },
+  {
+    title: 'InCode',
+    route: 5,
+    description: `InCode is an in browser code editor created for beginners.`,
+    thumbnail: '/images/home_code.png',
+    tag: 'editor',
+    repo: 'https://github.com/DevAthul-88/InCode',
+    live: 'https://in-code.vercel.app/',
+    tools: [
+      'React',
+       'Wouter',
+       'Mantine React',
+       'Supabase',
+       'React Toastify'
+    ],
+  },
+  {
+    title: 'Change Clone',
+    route: 4,
+    description: `This is a clone web application of a famous petition platform called Change-org. Built with the MERN stack`,
+    thumbnail: '/images/home_change.png',
+    tag: 'clones',
+    repo: 'https://github.com/DevAthul-88/Change-Org-Clone',
+    live: 'https://change-o.herokuapp.com/',
+    tools: ['React', 'Bootstrap','Wouter' , 'Node', 'Express', 'MongoDB', 'Redux'],
   },
 ];
 
