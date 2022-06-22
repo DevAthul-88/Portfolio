@@ -24,8 +24,8 @@ body {
 
 
 .hero_card {
-  background: #202938 !important;
   border-radius: 2px !important;
+  border: 1px solid #e4e6ff;
 }
 
 .hero_btn {
@@ -126,6 +126,6 @@ textarea:focus {
   background: #000 !important;
 }
 
-.tag.is-light{
-  background:#3340ff !important;
+.has-shadows{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px !important;
 }
