@@ -5,50 +5,6 @@
     Projects
   </h1>
 
-  <h2 class='w pop is-size-5'>Filter projects</h2>
-
-  <div class='mt-2' data-aos='fade-down-right'>
-    <span class='tag is-light is-medium' {{on 'click' (fn this.update 'all')}}>
-      #All
-    </span>
-    <span
-      class='tag is-light is-medium'
-      {{on 'click' (fn this.update 'e-commerce')}}
-    >
-      #E-commerce
-    </span>
-    <span
-      class='tag is-light is-medium'
-      {{on 'click' (fn this.update 'system')}}
-    >
-      #Management-System
-    </span>
-    <span
-      class='tag is-light is-medium'
-      {{on 'click' (fn this.update 'social-network')}}
-    >
-      #Social-network
-    </span>
-    <span
-      class='tag is-light is-medium'
-      {{on 'click' (fn this.update 'social-network')}}
-    >
-      #Web3
-    </span>
-    <span
-      class='tag is-light is-medium'
-      {{on 'click' (fn this.update 'clones')}}
-    >
-      #Clones
-    </span>
-    <span
-      class='tag is-light is-medium'
-      {{on 'click' (fn this.update 'social-network')}}
-    >
-      #packages
-    </span>
-  </div>
-
   <div class='mt-6'>
     {{#each this.returnData as |e|}}
       <div class='columns mt-6'>
