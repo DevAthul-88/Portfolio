@@ -1,16 +1,16 @@
 {{yield}}
 
-<div class='navbar is-fixed-top is-spaced'>
+<div class='navbar is-fixed-top is-spaced' id="navbar">
   <div class='navbar-start'>
-    <a href='#' class='navbar-item has-text-weight-bold'>
-      Athul Vinod
+    <a href='#' class='navbar-item is-size-5 has-text-weight-bold'>
+      <img src="/assets/svg.svg" alt="">
     </a>
   </div>
   <div class='navbar-center'>
 
     <a
       href='#introduction'
-      class='navbar-item pop w hvr-rotate intro_hero {{this.current}}'
+      class='navbar-item pop w hvr-buzz-out intro_hero {{this.current}}'
       onclick={{action 'change' 'introduction'}}
     >
       Introduction
@@ -18,7 +18,7 @@
 
     <a
       href='#about'
-      class='navbar-item w pop w hvr-rotate about_hero {{this.current}}'
+      class='navbar-item w pop w hvr-buzz-out about_hero {{this.current}}'
       onclick={{action 'change' 'about'}}
     >
       About
@@ -26,7 +26,7 @@
 
     <a
       href='#projects'
-      class='navbar-item w pop w hvr-rotate project_hero {{this.current}}'
+      class='navbar-item w pop w hvr-buzz-out project_hero {{this.current}}'
       onclick={{action 'change' 'project'}}
     >
       Projects
@@ -34,7 +34,7 @@
 
     <a
       href='#contact'
-      class='navbar-item w pop hvr-rotate contact_hero {{this.current}}'
+      class='navbar-item w pop hvr-buzz-out contact_hero {{this.current}}'
       onclick={{action 'change' 'contact'}}
     >
       Contact
@@ -46,8 +46,8 @@
     <a
       href='https://github.com/DevAthul-88'
       title='github'
-      class='navbar-item w hvr-rotate'
-      target="_blank"
+      class='navbar-item w hvr-buzz-out has-text-light'
+      target="_blank" rel="noopener noreferrer"
     >
 
       <i class='fab fa-github fa-2x'></i>
@@ -55,9 +55,9 @@
     </a>
     <a
       href='https://www.linkedin.com/in/athul-vinod-36378820a/'
-      class='navbar-item w hvr-rotate'
+      class='navbar-item w hvr-buzz-out has-text-light'
       title='linkedin'
-      target='_blank'
+      target='_blank' rel="noopener noreferrer"
     >
       <i class='fab fa-linkedin fa-2x'></i>
       <span class='is-hidden'>Linkedin</span>
@@ -65,3 +65,4 @@
 
   </div>
 </div>
+

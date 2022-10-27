@@ -1,9 +1,10 @@
 {{yield}}
 
-<div class='section mt-6' id='projects'>
-  <h1 class='title is-size-3 w pop' data-aos='fade-down-right'>
+<div class='section' id='projects'>
+  <h1 class='title is-size-3 w pop g underline ' data-aos='fade-down-right'>
     Projects
   </h1>
+
 
   <div class='mt-6'>
     {{#each this.returnData as |e|}}
@@ -13,29 +14,30 @@
             class='title is-size-3 w pop'
             data-aos='zoom-in-down'
           >{{e.title}}</h1>
-          <p class='subtitle  mt-2 w pop' data-aos='zoom-in-down'>
+          <p class='subtitle mt-2 w pop' data-aos='zoom-in-down'>
             {{e.description}}
           </p>
-          <div class="mb-5">
+          <div class='mb-5'>
             {{#each e.tools as |s|}}
-               <div class="tag is-medium">{{s}}</div>
+              <div class='tag is-medium'>{{s}}</div>
             {{/each}}
           </div>
           <div>
-             <LinkTo
+            <LinkTo
               @route='projects/{{e.route}}'
-              class='button is-light is-rounded has-text-weight-bold hvr-bounce-in'
-              aria-label="Learn more about this project."
+              class='button is-rounded is-light has-text-weight-bold hvr-bounce-in'
+              aria-label='Learn more about this project.'
             >
               <span class='icon'>
-                <i class="fa fa-book" aria-hidden="true"></i>
+                <i class='fa fa-book' aria-hidden='true'></i>
               </span>
               <span>Projects Details</span>
             </LinkTo>
             <a
               href='{{e.live}}'
-              class='button is-light is-rounded has-text-weight-bold hvr-bounce-in'
-              target="_blank" rel="noopener noreferrer"
+              class='button is-rounded is-light has-text-weight-bold hvr-bounce-in'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               <span class='icon'>
                 <i class='fa fa-desktop' aria-hidden='true'></i>
@@ -44,8 +46,9 @@
             </a>
             <a
               href='{{e.repo}}'
-              class='button is-light is-rounded has-text-weight-bold hvr-bounce-in'
-              target="_blank" rel="noopener noreferrer"
+              class='button is-rounded is-light has-text-weight-bold hvr-bounce-in'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               <span class='icon'>
                 <i class='fa fa-code' aria-hidden='true'></i>
@@ -55,7 +58,11 @@
           </div>
         </div>
         <div class='column is-7' data-aos='flip-left'>
-          <img src='{{e.thumbnail}}' alt='thumbnail' class='hvr-grow has-shadows' />
+          <img
+            src='{{e.thumbnail}}'
+            alt='thumbnail'
+            class='hvr-grow has-shadows'
+          />
         </div>
       </div>
     {{/each}}

@@ -16,4 +16,6 @@ Router.map(function () {
   this.route('projects/4');
 
   this.route('projects/5');
+
+  this.route('projects/6');
 });

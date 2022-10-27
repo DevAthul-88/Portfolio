@@ -7,21 +7,28 @@
     <meta name="language" content="en-US" />
     <meta name="description" content="Athul vinod's portfolio website" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.webp">
-    <meta name="theme-color" content="#111828">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.webp" />
+    <meta name="theme-color" content="#111828" />
     {{content-for "head"}}
-    
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css" />
     <link
       integrity=""
       rel="stylesheet"
       href="{{rootURL}}assets/athul-vinod.css"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
     <link integrity="" rel="stylesheet" href="/assets/bulma.css" />
     <link integrity="" rel="stylesheet" href="/assets/aos.css" />
     <link integrity="" rel="stylesheet" href="/assets/hover.css" />
+
+    <script src="/assets/gsap.js"></script>
+    <script src="/assets/scroll.js"></script>
     {{content-for "head-footer"}}
   </head>
   <body>
@@ -30,6 +37,7 @@
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/athul-vinod.js"></script>
     <script src="/assets/aos.js"></script>
+
     {{content-for "body-footer"}}
   </body>
 </html>

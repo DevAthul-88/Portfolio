@@ -38,7 +38,25 @@ const projects = [
       'Redux',
     ],
   },
-
+  {
+    title: 'ProjectHunt',
+    route: 6,
+    description: `Use projecthunt as your mini portfolio. Showcase your project to other developers, so everyone can see your project.`,
+    thumbnail: '/images/project_home.webp',
+    tag: 'system',
+    repo: 'https://github.com/DevAthul-88/projecthunt',
+    live: 'https://rococo-biscotti-8452bd.netlify.app/',
+    tools: [
+      'React',
+      'Next',
+      'Redwood',
+      'Prisma',
+      'Bulma',
+      'Css',
+      'GraphQL',
+      'Postgres SQL',
+    ],
+  },
   {
     title: 'Medic',
     route: 3,
@@ -66,13 +84,7 @@ const projects = [
     tag: 'editor',
     repo: 'https://github.com/DevAthul-88/InCode',
     live: 'https://in-code.vercel.app/',
-    tools: [
-      'React',
-       'Wouter',
-       'Mantine React',
-       'Supabase',
-       'React Toastify'
-    ],
+    tools: ['React', 'Wouter', 'Mantine React', 'Supabase', 'React Toastify'],
   },
   {
     title: 'Change Clone',
@@ -82,7 +94,15 @@ const projects = [
     tag: 'clones',
     repo: 'https://github.com/DevAthul-88/Change-Org-Clone',
     live: 'https://change-o.herokuapp.com/',
-    tools: ['React', 'Bootstrap','Wouter' , 'Node', 'Express', 'MongoDB', 'Redux'],
+    tools: [
+      'React',
+      'Bootstrap',
+      'Wouter',
+      'Node',
+      'Express',
+      'MongoDB',
+      'Redux',
+    ],
   },
 ];
 
