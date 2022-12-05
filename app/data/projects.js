@@ -7,7 +7,7 @@ const projects = [
     thumbnail: '/images/home_stack.webp',
     tag: 'clones',
     repo: 'https://github.com/DevAthul-88/Stack-Overflow-Clone',
-    live: 'https://stackoverflows-clone.herokuapp.com/',
+    live: 'https://stackoverflow-clone.onrender.com',
     tools: [
       'React',
       'Bulma',
@@ -45,7 +45,7 @@ const projects = [
     thumbnail: '/images/project_home.webp',
     tag: 'system',
     repo: 'https://github.com/DevAthul-88/projecthunt',
-    live: 'https://rococo-biscotti-8452bd.netlify.app/',
+    live: 'https://projecthunts.netlify.app/',
     tools: [
       'React',
       'Next',
