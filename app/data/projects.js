@@ -1,5 +1,27 @@
 const projects = [
   {
+    title: 'Epoch',
+    route: 7,
+    description:
+      'Epoch is an entirely open source and free online video sharing service that focuses primarily on video rendering and performance.',
+    thumbnail: '/images/epoch_home.webp',
+    tag: 'clones',
+    repo: 'https://github.com/DevAthul-88/Epoch',
+    live: 'http://epochvideo.netlify.app/',
+    tools: [
+      'React',
+      'Next',
+      'Redwood',
+      'Mantine',
+      'CSS3',
+      'GraphQL',
+      'GraphQL Yoga',
+      'Apollo',
+      'Prisma',
+      'CockroachDB',
+    ],
+  },
+  {
     title: 'Stack Overflow Clone',
     route: 1,
     description:
@@ -55,6 +77,9 @@ const projects = [
       'Css',
       'GraphQL',
       'Postgres SQL',
+      'GraphQL',
+      'GraphQL Yoga',
+      'Apollo',
     ],
   },
   {
